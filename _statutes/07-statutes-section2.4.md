@@ -1,7 +1,7 @@
 ---
-title: "Section 2.3 - Forbidden applications"
-permalink: /statutes/section2.3/
-excerpt: "Section 2. of the model statute"
+title: "Section 2.4 - Claims about or by AI systems"
+permalink: /statutes/section2.4/
+excerpt: "Section 2.4 of the model statute"
 last_modified_at: 2024-11-06
 toc: true
 ---

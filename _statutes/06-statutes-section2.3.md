@@ -1,7 +1,7 @@
 ---
 title: "Section 2.3 - Forbidden applications"
 permalink: /statutes/section2.3/
-excerpt: "Section 2. of the model statute"
+excerpt: "Section 2.3 of the model statute"
 last_modified_at: 2024-11-06
 toc: true
 ---
