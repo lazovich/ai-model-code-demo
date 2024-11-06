@@ -37,6 +37,8 @@ remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
 #  - jekyll-feed
 
 # Exclude from processing.
@@ -62,3 +64,47 @@ plugins:
 domain: aimodelcode.org     # if you want to force HTTPS, specify the 
 url: https://aimodelcode.org # the base hostname and protocol for your 
 baseurl: /      # place folder name if the site is 
+
+collections:
+  statutes:
+    output: true
+    permalink: /:collection/:path/
+  simple-statutes:
+    output: true
+    permalink: /:collection/:path/
+
+
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _statutes
+  - scope:
+      path: ""
+      type: statutes
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc_sticky: true
+      sidebar:
+        nav: "statutes"
+  # _simple-statutes
+  - scope:
+      path: ""
+      type: simple-statutes
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc_sticky: true
+      sidebar:
+        nav: "simple-statutes"

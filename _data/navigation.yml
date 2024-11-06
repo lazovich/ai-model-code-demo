@@ -1,9 +1,26 @@
 main:
   - title: "Model statute"
-    url: /model-statute/
+    url: /statutes/start/
   - title: "Technical resources"
     url: /tech-info/
   - title: "Scenarios"
     url: /scenarios/
   - title: "Consumer resources"
     url: /consumer-info/
+
+
+statutes:
+  - title: "Section 1: Definitions"
+    url: /statutes/section1/
+  - title: "Section 2: First-party"
+    url: /statutes/section2/
+    children:
+      - title: "2.1 - Assessment, general"
+        url: /statutes/section2#section-2.1
+      - title: "2.2 - Assessment, sensitive"
+        url: /statutes/section2#section-2.2
+      - title: "2.3 - Forbidden applications"
+        url: /statutes/section2#section-2.3
+      - title: "2.4 - Claims about or by AI"
+        url: /statutes/section2#section-2.4
+      
