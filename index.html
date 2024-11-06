@@ -1,4 +1,40 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+permalink: /
+hidden: true
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/tech_banner.jpeg
+  actions:
+    #- label: "<i class='fas fa-download'></i> Install now"
+    #  url: "/docs/quick-start-guide/"
+excerpt: >
+    A resource for <strong>policymakers</strong>, <strong>developers</strong>, and <strong>members of the public</strong> 
+    to learn more about and contribute to the regulation of artificial intelligence systems. 
+feature_row:
+  - # image_path: /assets/images/consumer_cartoon.jpeg
+    alt: "law"
+    title: "Attorney/policymaker"
+    excerpt: "Interested in understanding the legal technicalities of AI regulation."
+    url: "/law-home/"
+    btn_class: "btn--primary"
+    btn_label: "Select"
+  - #image_path: /assets/images/mm-responsive-feature.png
+    alt: "dev"
+    title: "AI/ML developer"
+    excerpt: "Interested in connecting legal requirements with technical measures."
+    url: "/dev-home/"
+    btn_class: "btn--primary"
+    btn_label: "Select"
+  - #image_path: /assets/images/mm-free-feature.png
+    alt: "user"
+    title: "Consumer"
+    excerpt: "Interested in learning consumer rights or reporting AI-related harms. "
+    url: "/user-home/"
+    btn_class: "btn--primary"
+    btn_label: "Select"      
 ---
+
+<h1> What best describes you?</h1>
+
+{% include feature_row %}
