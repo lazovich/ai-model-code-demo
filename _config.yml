@@ -59,6 +59,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-domain: lazovich.github.io       # if you want to force HTTPS, specify the 
-url: https://lazovich.github.io  # the base hostname and protocol for your 
-baseurl: /ai-model-code-demo/      # place folder name if the site is 
+domain: aimodelcode.org     # if you want to force HTTPS, specify the 
+url: https://aimodelcode.org # the base hostname and protocol for your 
+baseurl: /      # place folder name if the site is 
