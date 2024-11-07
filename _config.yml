@@ -72,6 +72,9 @@ collections:
   simple-statutes:
     output: true
     permalink: /:collection/:path/
+  tech-info:
+    output: true
+    permalink: /:collection/:path/
 
 
 defaults:
@@ -108,3 +111,15 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "simple-statutes"
+  - scope:
+      path: ""
+      type: tech-info
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc_sticky: true
+      sidebar:
+        nav: "tech-info"

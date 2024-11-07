@@ -14,7 +14,5 @@ In addition to the requirements of Section 2.1, if an AI system is used for the 
   * (1) any plans to update the system in a way that can substantially affect its performance.
 
 
-#### Applicable resources - Section 2.2
-* Tools: 
-* Principles: 
-* Scenarios: 
+#### Applicable technical resources 
+* [Tools for model documentation]({{"/tech-info/model-docs/" | relative_url }})
