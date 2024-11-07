@@ -52,3 +52,8 @@ Another way is to use a metric that inherently does not do a groupwise compariso
 #### Privacy enhancing technologies
 
 Recent [work](https://www.christchurchcall.org/safe-secure-private-research-finds-third-parties-can-audit-online-algorithms/) from OpenMined and collaborators as part of the Christchurch Call has demonstrated the computation of inequality metrics on private company data. 
+
+
+### Applicable statutes
+
+* [Section 2.1]({{ "statutes/section2.1" | relative_url }})

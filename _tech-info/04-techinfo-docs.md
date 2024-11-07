@@ -8,3 +8,7 @@ toc: false
 
 * [Intro to model cards](https://huggingface.co/docs/hub/en/model-cards) from HuggingFace
 * [In-browser model card generator](https://bias.xd.gov/resources/model-card-generator/) from the xD team at the U.S. Census Bureau
+
+### Applicable statutes
+
+* [Section 2.1]({{ "statutes/section2.1" | relative_url }})
