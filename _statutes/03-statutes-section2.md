@@ -11,4 +11,4 @@ Section 2 summarizing requirements for first-party developers of AI systems. It 
 ### [Section 2.1]({{ "/statutes/section2.1/" | relative_url }}): Assessment requirements, general
 ### [Section 2.2]({{ "/statutes/section2.2/" | relative_url }}): Assessment requirements, sensitive applications
 ### [Section 2.3]({{ "/statutes/section2.3/" | relative_url }}): Forbidden applications
-### [Section 2.4]({{ "/statutes/section2.34/" | relative_url }}): Claims about or by AI systems
+### [Section 2.4]({{ "/statutes/section2.4/" | relative_url }}): Claims about or by AI systems

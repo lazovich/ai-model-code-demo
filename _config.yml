@@ -30,7 +30,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username:  ""
-
+markdown: kramdown
 # Build settings
 #theme: minima
 remote_theme: mmistakes/minimal-mistakes
@@ -39,6 +39,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-glossary_tooltip
 #  - jekyll-feed
 
 # Exclude from processing.

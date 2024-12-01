@@ -1,0 +1,16 @@
+statute-2.1:
+  links:
+    - text: Evaluating predictive models for disparate performance
+      url: "/tech-info/disparities/"
+    - text: Tools for model documentation
+      url: "/tech-info/model-docs/"
+
+statute-2.2:
+  links:
+    - text: Tools for model documentation
+      url: "/tech-info/model-docs/"
+
+statute-2.4: 
+  links:
+    - text: Evaluating language models for accuracy and bias
+      url: "/tech-info/llm-eval"

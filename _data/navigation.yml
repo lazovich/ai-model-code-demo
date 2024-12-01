@@ -12,6 +12,8 @@ main:
 
 
 statutes:
+  - title: "Model Statute: Home"
+    url: /statutes/start/
   - title: "Section 1: Definitions"
     url: /statutes/section1/
   - title: "Section 2: First-party"
@@ -27,12 +29,14 @@ statutes:
         url: /statutes/section2.4
   - title: "Section 3: Third-party"
     url: /statutes/section3
-  - title: "Section 4: Federal government"
+  - title: "Section 4: Government"
     url: /statutes/section4
   - title: "Section 5: Remedies"
     url: /statutes/section5
   - title: "Section 6: Penalties"
     url: /statutes/section6
+  - title: "Entire Text"
+    url: /statutes/entire-statute/
   
 tech-info:
   - title: "Disparity evaluation"

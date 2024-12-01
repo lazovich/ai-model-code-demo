@@ -4,13 +4,14 @@ permalink: /statutes/section2.3/
 excerpt: "Section 2.3 of the model statute"
 last_modified_at: 2024-11-06
 toc: true
+statute: statute-2.3
 ---
 
-Development of AI systems for the following purposes are prohibited:
-* (a) Determining a person's race, sex, gender, or sexual orientation,
-* (b) Controlling a deadly weapon autonomously,
-* (c) Impersonation of an individual, and
-* (d) Purposeful generation of disinformation or misinformation.
+{% include_relative section2.3-content.md %}
 
-#### Committee notes - Section 2.3
-* (1) The rationale for banning these applications is two-fold. Some, such as in (a), are scientifically unsound applications of AI technology. Others, like (b)-(d), have the potential to inflict large-scale bodily or psychological harms on an individual.
+### Applicable technical resources
+
+{% assign links = site.data.statute-tech-links[page.statute].links %}
+{% for link in links %}
+- [{{ link.text }} ]({{ link.url | relative_url }})
+{% endfor %}

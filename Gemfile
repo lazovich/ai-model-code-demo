@@ -36,3 +36,7 @@ gem "jekyll-remote-theme"
 gem "jekyll-include-cache"
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
+
+group :jekyll_plugins do
+  gem 'jekyll-glossary_tooltip'
+end

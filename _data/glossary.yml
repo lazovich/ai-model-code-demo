@@ -1,0 +1,21 @@
+- term: artificial intelligence
+  definition: a machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations, or decisions influencing real or virtual environments.  Artificial intelligence systems use machine- and human-based inputs to perceive real and virtual environments; abstract such perceptions into models through analysis in an automated manner; and use model inference to formulate options for information or action
+  url: /statutes/section1/
+- term: first-party developer
+  definition: any legal person with direct involvement in the design, coding, training, or other development of an AI system
+  url: /statutes/section1/
+- term: third-party procurer
+  definition: any legal person that purchases, licenses, or otherwise acquires an AI system from a first-party developer
+  url: /statutes/section1/
+- term: sensitive application
+  definition: the use of AI to determine eligibility or otherwise furnish a legal person with goods or services related to housing, healthcare, financial services, or employment
+  url: /statutes/section1/
+- term: model
+  definition: any computational object that takes in data and outputs a result based on data that it has previously observed
+  url: /statutes/section1/
+- term: training
+  definition: the process of using a dataset to learn the parameters or otherwise build a model
+  url: /statutes/section1/
+- term: training dataset
+  definition: any collection of data that is used to train a model
+  url: /statutes/section1/
