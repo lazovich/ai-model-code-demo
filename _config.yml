@@ -35,7 +35,7 @@ markdown: kramdown
 #theme: minima
 remote_theme: mmistakes/minimal-mistakes
 plugins:
-  - jekyll-spaceship
+  - jekyll-diagrams
   - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-paginate
@@ -140,18 +140,3 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "industry-info"
-
-jekyll-spaceship:
-  processors:
-    - table-processor
-    - mathjax-processor
-    - plantuml-processor
-    - mermaid-processor  # Add this line
-    - polyfill-processor
-    - video-processor
-    - emoji-processor
-  default-path: ""  # Process files in root
-  pages: true      # Process all pages
-  collections:     # Process all collections
-    - pages
-    - posts
