@@ -42,9 +42,9 @@ for that section.
 
 # Section 5: Remedies
 
-More text
+{% include_relative section5-content.md %}
 
 # Section 6: Penalties
 
-More text
+{% include_relative section6-content.md %}
 

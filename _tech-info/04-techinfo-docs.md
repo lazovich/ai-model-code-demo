@@ -12,3 +12,5 @@ toc: false
 ### Applicable statutes
 
 * [Section 2.1]({{ "statutes/section2.1" | relative_url }})
+* [Section 2.2]({{ "statutes/section2.2" | relative_url }})
+* [Section 3]({{ "statutes/section3" | relative_url }})
