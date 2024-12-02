@@ -2,10 +2,12 @@
 statute-1:
   section: Section 1
   name: Definitions
+  url: "/statutes/section1/" 
 
-tatute-2.1:
+statute-2.1:
   section: Section 2.1
   name: Assessment requirements, general
+  url: "/statutes/section2.1/" 
   links:
     - text: Evaluating predictive models for disparate performance
       url: "/tech-info/disparities/"
@@ -15,6 +17,7 @@ tatute-2.1:
 statute-2.2:
   section: Section 2.2
   name: Assessment requirements, sensitive applications
+  url: "/statutes/section2.2/" 
   links:
     - text: Tools for model documentation
       url: "/tech-info/model-docs/"
@@ -22,10 +25,12 @@ statute-2.2:
 statute-2.3:
   section: Section 2.3
   name: Forbidden applications
+  url: "/statutes/section2.3/" 
 
 statute-2.4:
   section: Section 2.4
   name: Claims about or by AI systems
+  url: "/statutes/section2.4/" 
   links:
     - text: Evaluating language models for accuracy and bias
       url: "/tech-info/llm-eval"
@@ -33,15 +38,19 @@ statute-2.4:
 statute-3: 
   section: Section 3
   name: Requirements for third-party procurers
+  url: "/statutes/section3/" 
 
 statute-4:
   section: Section 4
   name: Requirements for government entities
+  url: "/statutes/section4/" 
 
 statute-5: 
   section: Section 5
   name: Remedies
+  url: "/statutes/section5/" 
 
 statute-6:
   section: Section 6
   name: Penalties
+  url: "/statutes/section6/" 

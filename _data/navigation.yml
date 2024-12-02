@@ -5,6 +5,8 @@ main:
     url: /statutes/start/
   - title: "Technical resources"
     url: /tech-info/start/
+  - title: "Industry guidance"
+    url: /industry-info/start/
   - title: "Resource map"
     url: /map/
   - title: "<strong>Give feedback</strong>"
@@ -45,3 +47,12 @@ tech-info:
     url: /tech-info/llm-eval/
   - title: "Documenting models"
     url: /tech-info/model-docs/
+
+industry-info:
+  - title: "Insurance"
+    url: /industry-info/insurance/
+  - title: "Financial services"
+    url: /industry-info/finance/
+  - title: "Healthcare"
+    url: /industry-info/healthcare/
+

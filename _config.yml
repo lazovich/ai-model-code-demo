@@ -35,12 +35,13 @@ markdown: kramdown
 #theme: minima
 remote_theme: mmistakes/minimal-mistakes
 plugins:
+  - jekyll-spaceship
   - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-glossary_tooltip
-#  - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -74,6 +75,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   tech-info:
+    output: true
+    permalink: /:collection/:path/
+  industry-info:
     output: true
     permalink: /:collection/:path/
 
@@ -124,3 +128,30 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "tech-info"
+  - scope:
+      path: ""
+      type: industry-info
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc_sticky: true
+      sidebar:
+        nav: "industry-info"
+
+jekyll-spaceship:
+  processors:
+    - table-processor
+    - mathjax-processor
+    - plantuml-processor
+    - mermaid-processor  # Add this line
+    - polyfill-processor
+    - video-processor
+    - emoji-processor
+  default-path: ""  # Process files in root
+  pages: true      # Process all pages
+  collections:     # Process all collections
+    - pages
+    - posts

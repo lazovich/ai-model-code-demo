@@ -47,4 +47,3 @@ for that section.
 # Section 6: Penalties
 
 {% include_relative section6-content.md %}
-
